@@ -1,0 +1,9 @@
+{
+  "name": "lianduila-basic-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "练对啦基础业务原型：多点评需求单、托管结算、仲裁退款、投票榜单。",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

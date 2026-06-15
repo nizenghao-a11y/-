@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "version": 1,
+    "platformRevenue": 0,
+    "orderServiceRevenue": 0,
+    "actionTipServiceRevenue": 0,
+    "createdAt": "2026-06-08T09:32:25.242Z"
+  },
+  "users": [
+    {
+      "id": "u_buyer",
+      "nickname": "刘晨",
+      "role": "user",
+      "userType": "normal",
+      "profileCompleted": true,
+      "trainingYears": 2,
+      "strengthTags": [
+        "核心"
+      ],
+      "coachCertStatus": "none",
+      "accountStatus": "normal",
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    },
+    {
+      "id": "u_enthusiast",
+      "nickname": "阿杰",
+      "role": "user",
+      "userType": "normal",
+      "profileCompleted": true,
+      "trainingYears": 6,
+      "strengthTags": [
+        "胸",
+        "背"
+      ],
+      "coachCertStatus": "none",
+      "accountStatus": "normal",
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    },
+    {
+      "id": "u_coach",
+      "nickname": "王教练",
+      "role": "user",
+      "userType": "coach",
+      "profileCompleted": true,
+      "trainingYears": 9,
+      "strengthTags": [
+        "腿臀",
+        "肩",
+        "瑜伽体态"
+      ],
+      "coachCertStatus": "approved",
+      "accountStatus": "normal",
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    },
+    {
+      "id": "u_new",
+      "nickname": "新用户",
+      "role": "user",
+      "userType": "normal",
+      "profileCompleted": false,
+      "trainingYears": 0,
+      "strengthTags": [],
+      "coachCertStatus": "none",
+      "accountStatus": "normal",
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    },
+    {
+      "id": "u_admin",
+      "nickname": "平台管理员",
+      "role": "admin",
+      "userType": "admin",
+      "profileCompleted": true,
+      "trainingYears": 0,
+      "strengthTags": [],
+      "coachCertStatus": "none",
+      "accountStatus": "normal",
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    }
+  ],
+  "wallets": [
+    {
+      "userId": "u_buyer",
+      "balance": 500,
+      "frozen": 0
+    },
+    {
+      "userId": "u_enthusiast",
+      "balance": 80,
+      "frozen": 0
+    },
+    {
+      "userId": "u_coach",
+      "balance": 120,
+      "frozen": 0
+    },
+    {
+      "userId": "u_new",
+      "balance": 200,
+      "frozen": 0
+    },
+    {
+      "userId": "u_admin",
+      "balance": 0,
+      "frozen": 0
+    }
+  ],
+  "walletTransactions": [],
+  "videoRequests": [],
+  "standardActions": [
+    {
+      "id": "act_bent_row",
+      "coachUserId": "u_coach",
+      "actionName": "俯身杠铃划船",
+      "muscleGroup": "背",
+      "categoryTags": [
+        "背/整体背阔肌",
+        "背/上背",
+        "背/菱形肌",
+        "臀腿/大腿后侧链",
+        "臀腿/髋主导复合"
+      ],
+      "movementType": "多关节复合",
+      "equipment": "杠铃",
+      "difficulty": "中级",
+      "videoUrl": "",
+      "gifUrl": "",
+      "coverUrl": "",
+      "keyPoints": "髋部折叠，脊柱保持中立位；杠铃沿大腿前侧上拉到下腹；肩胛先后缩再带动手肘。",
+      "status": "approved",
+      "isFeatured": true,
+      "tipTotal": 0,
+      "tipCount": 0,
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    },
+    {
+      "id": "act_lat_pulldown",
+      "coachUserId": "u_coach",
+      "actionName": "高位下拉",
+      "muscleGroup": "背",
+      "categoryTags": [
+        "背/整体背阔肌",
+        "背/大圆肌",
+        "背/下斜方肌"
+      ],
+      "movementType": "垂直拉",
+      "equipment": "固定器械",
+      "difficulty": "新手",
+      "videoUrl": "",
+      "gifUrl": "",
+      "coverUrl": "",
+      "keyPoints": "保持胸椎微伸展，先下沉肩胛，再用肘部向身体两侧下拉。",
+      "status": "approved",
+      "isFeatured": true,
+      "tipTotal": 0,
+      "tipCount": 0,
+      "createdAt": "2026-06-08T09:32:25.242Z"
+    }
+  ],
+  "actionTips": [],
+  "applications": [],
+  "reviewOrders": [],
+  "reviews": [],
+  "votes": [],
+  "arbitrations": [],
+  "chatPermissions": [],
+  "messages": []
+}
